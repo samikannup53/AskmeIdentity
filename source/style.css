@@ -767,14 +767,14 @@ video {
   border-top-width: 1px;
 }
 
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
 .border-\[\#707070\]{
   --tw-border-opacity: 1;
   border-color: rgb(112 112 112 / var(--tw-border-opacity, 1));
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#2AAA94\]{
@@ -787,16 +787,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gradient-to-b{
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
 .bg-gradient-to-bl{
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-br{
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-}
-
-.bg-gradient-to-b{
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .from-\[\#04016C\]{
@@ -811,15 +811,15 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#3023B2\]{
-  --tw-gradient-from: #3023B2 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(48 35 178 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-\[\#2E08C7\]{
   --tw-gradient-from: #2E08C7 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(46 8 199 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#3023B2\]{
+  --tw-gradient-from: #3023B2 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(48 35 178 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -827,12 +827,12 @@ video {
   --tw-gradient-to: #4A16BD var(--tw-gradient-to-position);
 }
 
-.to-\[\#7F56D9\]{
-  --tw-gradient-to: #7F56D9 var(--tw-gradient-to-position);
-}
-
 .to-\[\#7E08C7\]{
   --tw-gradient-to: #7E08C7 var(--tw-gradient-to-position);
+}
+
+.to-\[\#7F56D9\]{
+  --tw-gradient-to: #7F56D9 var(--tw-gradient-to-position);
 }
 
 .object-cover{
@@ -1104,6 +1104,14 @@ video {
 @media (min-width: 1280px){
   .xl\:basis-28{
     flex-basis: 7rem;
+  }
+
+  .xl\:basis-2{
+    flex-basis: 0.5rem;
+  }
+
+  .xl\:basis-24{
+    flex-basis: 6rem;
   }
 
   .xl\:pt-24{
