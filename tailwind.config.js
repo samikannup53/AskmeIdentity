@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./source/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        primary:['Righteous'],
+        secondary:['Saira'],
+      }
+    },
+    
   },
   plugins: [],
 }
