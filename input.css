@@ -3,3 +3,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Section Heading */
+.section-heading{
+    @apply text-3xl text-center my-2
+}
+
+/* Section Description */
+.section-description{
+    @apply text-lg text-center my-4
+}
+
+/* -----------------TESTIMONIALS SECTION-------------------*/
+
+/* Testimonials Card */
+.testimonials-card{
+    @apply w-full sm:w-[35%] bg-white px-8 pt-6 pb-3 shadow-lg
+}
+
+/* Testimonials Card Wrapper */
+.testimonials-card-wrapper{
+    @apply relative flex flex-col items-center
+}
+
+/* Testimonials Card Circle Women Image */
+.circle-women-image{
+    @apply absolute -top-[70px]
+}
+
+/* Testimonials Card Content */
+.testimonials-card-content{
+    @apply flex flex-col items-center lg:items-start
+}
+
+/* Testimonials Card Description */
+.testimonials-card-description{
+    @apply text-[#7E7EAA] text-sm text-center lg:text-left
+}
+
+/* Testimonials Card Yellow Star */
+.yellow-star{
+    @apply text-sm text-[#FAB437]
+}
+
+/* Testimonials Card Gray Star */
+.gray-star{
+    @apply text-sm text-gray-300
+}
+
+
+/* -----------------FOOTER SECTION-------------------*/
+
+/* Footer Social Icons */
+.social-icons{
+    @apply w-10 p-1 border-2 border-white rounded-full bg-white hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+}
+
+/* Footer Nav Links */
+.footer-navlink{
+    @apply text-base hover:text-white
+}
