@@ -8,7 +8,7 @@ module.exports = {
         secondary:['Saira'],
       },
       keyframes:{
-        'ping':{'75%,100%': {transform: 'scale(1.5)'},
+        'ping':{'0,75%,100%': {transform: 'scale(1.5)'},
           opacity: 0.5,
         },
         'animate1':{
@@ -43,7 +43,7 @@ module.exports = {
         },
       },
       animation:{
-        'ping':'ping 1.5s cubic-bezier(0.8, 1, 1, 1) infinite',
+        'ping':'ping 2s cubic-bezier(0.8, 1, 1, 1) infinite',
         'animate1': 'animate1 8s ease-in-out infinite',
         'animate2': 'animate2 8s ease-in-out infinite',
         'animate3': 'animate3 7s ease-in-out infinite',

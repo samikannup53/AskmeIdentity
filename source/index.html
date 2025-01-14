@@ -299,7 +299,7 @@
                 class="font-primary text-white flex flex-col sm:flex-row items-start justify-around gap-14 sm:gap-0 mt-8">
                 <!-- Step-1 : Learn Part -->
                 <div class="w-full sm:w-1/3 flex flex-col gap-6  items-center px-14 sm:px-4 lg:px-14">
-                    <img src="./assets/about-learn-icon.svg" alt="">
+                    <img class="hover:fill-blue-800" src="./assets/about-learn-icon.svg" alt="">
                     <h3 class="text-center text-xl font-normal">01. Learn</h3>
                     <p class="text-center text-base font-thin">Learn continually. There is always “one more thing”to
                         learn.</p>
@@ -323,69 +323,63 @@
     </section>
 
     <!-- Catagories Section -->
-    <section id="catageries" class="bg-gradient-to-b from-[#D9ECFF] to-[#D9ECFF] w-full">
+    <section id="catageries" class="bg-gradient-to-t from-[#D9ECFF] w-full">
         <!-- Catagories Section Container -->
         <div class="container mx-auto py-14 px-4 flex flex-col items-center font-primary">
             <!-- Catagories Content Section -->
             <div>
-                <h2 class="text-3xl text-center">Top <span class="text-[#0E38CD]">Categories</span></h2>
-                <p class="text-[#4E596B] text-center mt-2 text-lg">100+ unique online course list designs</p>
+                <h2 class="section-heading">Top <span class="text-[#0E38CD]">Categories</span></h2>
+                <p class="text-[#4E596B] section-description">100+ unique online course list designs</p>
             </div>
             <!-- Catagories Cards Section -->
             <!-- Catagories Cards Container -->
             <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4 xl:gap-6 mt-14">
                 <!-- Card-1 : Digital Marketing -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#DF385B] p-2 rounded-md" src="./assets/digital-marketing.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">Digital Marketing</h3>
-                        <span class="text-[#4F547B] text-base">25 Courses</span>
+                <div class="catagories-card group hover:bg-[#DF385B]">
+                    <img class="bg-[#DF385B] catagories-card-image" src="./assets/digital-marketing.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">Digital Marketing</h3>
+                        <span class="catagories-card-course">25 Courses</span>
                     </div>
                 </div>
                 <!-- Card-2 : Web Development -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#5AB48E] p-2 rounded-md" src="./assets/web-development.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">Web Development</h3>
-                        <span class="text-[#4F547B] text-base">16 Courses</span>
+                <div class="catagories-card group hover:bg-[#5AB48E]">
+                    <img class="bg-[#5AB48E] catagories-card-image" src="./assets/web-development.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">Web Development</h3>
+                        <span class="catagories-card-course">16 Courses</span>
                     </div>
                 </div>
                 <!-- Card-3 : Art & Humanities -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#7F56D9] p-2 rounded-md" src="./assets/art-humanities.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">Art & Humanities</h3>
-                        <span class="text-[#4F547B] text-base">76 Courses</span>
+                <div class="catagories-card group hover:bg-[#7F56D9]">
+                    <img class="bg-[#7F56D9] catagories-card-image" src="./assets/art-humanities.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">Art & Humanities</h3>
+                        <span class="catagories-card-course">76 Courses</span>
                     </div>
                 </div>
                 <!-- Card-4 : Personal Development -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#FAB437] p-2 rounded-md" src="./assets/personal-development.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">Personal Development</h3>
-                        <span class="text-[#4F547B] text-base">22 Courses</span>
+                <div class="catagories-card group hover:bg-[#FAB437]">
+                    <img class="bg-[#FAB437] catagories-card-image" src="./assets/personal-development.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">Personal Development</h3>
+                        <span class="catagories-card-course">22 Courses</span>
                     </div>
                 </div>
                 <!-- Card-5 : IT and Software -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#2AAA94] p-2 rounded-md" src="./assets/it-software.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">IT and Software</h3>
-                        <span class="text-[#4F547B] text-base">110 Courses</span>
+                <div class="catagories-card group hover:bg-[#2AAA94]">
+                    <img class="bg-[#2AAA94] catagories-card-image" src="./assets/it-software.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">IT and Software</h3>
+                        <span class="catagories-card-course">110 Courses</span>
                     </div>
                 </div>
                 <!-- Card-6 : Graphic & Design -->
-                <div
-                    class="w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 bg-white py-5 sm:py-8 px-4 sm:px-8 flex sm:flex-col items-center gap-8 rounded-xl">
-                    <img class="bg-[#2CD182] p-2 rounded-md" src="./assets/graphic-design.svg" alt="">
-                    <div class="flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center">
-                        <h3 class="text-[#324361] text-xl sm:text-center">Graphic Design</h3>
-                        <span class="text-[#4F547B] text-base">85 Courses</span>
+                <div class="catagories-card group hover:bg-[#2CD182]">
+                    <img class="bg-[#2CD182] catagories-card-image" src="./assets/graphic-design.svg" alt="">
+                    <div class="catagories-card-content">
+                        <h3 class="catagories-card-title">Graphic Design</h3>
+                        <span class="catagories-card-course">85 Courses</span>
                     </div>
                 </div>
 
@@ -415,11 +409,11 @@
                             class="bg-[#0E38CD] text-white text-sm py-2 px-2 sm:px-5 rounded-r-[4px]">Subscribe</button>
                     </div>
                     <!-- Triangle Images -->
-                    <img class="absolute -bottom-6 -left-6 w-12 animate-pulse lg:animate-none"
+                    <img class="absolute -bottom-6 -left-6 w-12 animate-pulse"
                         src="./assets/triangle.svg">
-                    <img class="absolute -top-6 lg:top-2 -right-3 lg:-right-[-50%] w-12 animate-pulse lg:animate-none"
+                    <img class="absolute -top-6 lg:top-2 -right-3 lg:-right-[-50%] w-12 animate-pulse"
                         src="./assets/triangle.svg">
-                    <img class="absolute hidden lg:block -bottom-28 -right-20 w-12" src="./assets/triangle.svg">
+                    <img class="absolute hidden lg:block -bottom-28 -right-20 w-12 animate-pulse" src="./assets/triangle.svg">
                     <!-- Person Images -->
                     <img class="absolute w-12 sm:w-14 top-2 left-2 sm:top-6 sm:left-6 lg:top-8 lg:left-10 animate-animate1"
                         src="./assets/nl-image-1.svg">
@@ -468,7 +462,8 @@
     <section id="Testimonials" class="bg-gradient-to-t from-[#DBEDFF] font-primary">
         <!-- Testimonials Section Container -->
         <div class="container mx-auto p-4 flex flex-col items-center relative">
-            <img class="absolute w-14 sm:w-20 top-6 left-8" src="./assets/semi-circle-image.svg"
+            <!-- Semi Circle Image -->
+            <img class="absolute w-14 sm:w-20 top-6 left-8 animate-pulse" src="./assets/semi-circle-image.svg"
                 alt="Semi-Circle-Image">
             <!-- Testimonials Content Section -->
             <div class="relative">
