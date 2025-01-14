@@ -7,7 +7,7 @@ module.exports = {
         primary:['Righteous'],
         secondary:['Saira'],
       },
-      keyframes:{
+           keyframes:{
         'ping':{'0,75%,100%': {transform: 'scale(1.5)'},
           opacity: 0.5,
         },

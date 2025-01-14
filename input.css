@@ -14,7 +14,29 @@
     @apply text-lg text-center my-4 cursor-default
 }
 
-/* CATAGORIES SECTION */
+/* -----------------ABOUTUS SECTION-------------------*/
+
+/* Aboutus Card */
+.aboutus-card{
+    @apply w-full sm:w-1/3 flex flex-col gap-6 items-center px-14 sm:px-4 lg:px-14 cursor-default
+}
+
+/* Aboutus Card Image */
+.aboutus-card-image{
+    @apply w-14 group-hover:mix-blend-overlay transition-all duration-1000
+}
+
+/* Aboutus Card Title */
+.aboutus-card-title{
+    @apply text-center text-xl font-normal group-hover:mix-blend-overlay transition-all duration-1000
+}
+
+/* Aboutus Card Description */
+.aboutus-card-description{
+    @apply text-center text-base font-thin group-hover:mix-blend-overlay transition-all duration-1000
+}
+
+/* -----------------CATAGORIES SECTION-------------------*/
 
 /* Catagories Card */
 .catagories-card{
