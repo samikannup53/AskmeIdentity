@@ -18,7 +18,7 @@
 
 /* Course Card */
 .course-card{
-    @apply basis-72 2xl:basis-96 shadow-lg rounded-2xl cursor-default hover:shadow-2xl transition-all duration-500
+    @apply basis-72 2xl:basis-96 shadow-lg rounded-xl cursor-default hover:shadow-2xl transition-all duration-500
 }
 
 /* Course Card Image */
