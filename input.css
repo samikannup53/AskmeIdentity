@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Section Heading */
 .section-heading{
-    @apply text-3xl text-center my-2 cursor-default
+    @apply text-3xl text-center mb-2 cursor-default
 }
 
 /* Section Description */
@@ -14,11 +15,23 @@
     @apply text-lg text-center my-2 cursor-default
 }
 
+/* Active Button */
+.active-btn{
+    @apply font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-white 
+    bg-gradient-to-br hover:bg-gradient-to-tl from-[#083F9B] to-[#7F56D9]
+    
+}
+
+/* Normal Button */
+.normal-btn{
+    @apply font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-[#4A4A4A] hover:underline hover:text-[#0E38CD]
+}
+
 /* -----------------COURSES SECTION-------------------*/
 
 /* Course Card */
 .course-card{
-    @apply basis-72 2xl:basis-96 shadow-lg rounded-xl cursor-default hover:shadow-2xl transition-all duration-500
+    @apply basis-72 2xl:basis-96 shadow-lg rounded-xl cursor-default hover:shadow-2xl transition-all duration-300
 }
 
 /* Course Card Image */
@@ -140,7 +153,8 @@
 
 /* Footer Social Icons */
 .social-icons{
-    @apply w-10 p-1 border-2 border-white rounded-full bg-white hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+    @apply w-10 p-1 border-2 border-white rounded-full bg-white 
+    hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-all duration-1000
 }
 
 /* Footer Navlinks Title */
